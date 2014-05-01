@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 #Reboot your netgear router
-__author__ = 'pzzt'
+__author__ = 'Andrea Pozzato'
 
 import getpass
 import urllib2
