@@ -29,7 +29,7 @@ def router_reboot(ip,user,psw):
     passman.add_password(None,url,user,psw)
     urllib2.install_opener(urllib2.build_opener(urllib2.HTTPBasicAuthHandler(passman)))
     comando=url+"setup.cgi?todo=reboot"
-    print(comando)
+    #print(comando)
     req=urllib2.urlopen(comando)
 
 router_reboot(ip,user,psw)
