@@ -14,9 +14,9 @@ psw=getpass.getpass("password:")
 
 # def lookup(ip):
 #
-#     # Devo trovare il modo di avere una funzione che mi restituisca 1 o 0
-#     # a seconda se l'host è online o meno possibilmente senza dovermi scrivere una funzione
-#     # ping a mano. subprocess sostituisce la lib os.
+#     # miserve una funzione che restituisca 1 o 0
+#     # a seconda se l'host è online o meno possibilmente senza doverla svrivere a mano
+#     # utilizzando le socket. subprocess sostituisce la lib os.
 #
 #     output = subprocess.Popen(["ping", "-o", "-c3", "-W3000", ip],stdout=subprocess.PIPE).communicate()[0]
 #     print(output)
