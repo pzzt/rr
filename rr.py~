@@ -48,9 +48,9 @@ def router_reboot(ip,user,psw):
     sleep(50)
 
 rebirth(ip)
-if alive(ip)==0:
-     router_reboot(ip,user,psw)
-     rebirth(ip)
+ if alive(ip)==0:
+     #router_reboot(ip,user,psw)
+     #rebirth(ip)
      print("Done!")
-else:
-   print("Exit!")
+ else:
+    print("Exit!")
